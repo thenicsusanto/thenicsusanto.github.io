@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head> <!-- Code in the head does not visually show --> 
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <title>Nico Susanto</title>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="blogpagestyles.css">
+      <link rel="icon" href="Images/kingicon.png">
+        <style>
+           body {
+            font-family: 'Zen Kurenaido', sans-serif;
+           }
+          a {
+            text-decoration: none;
+            color: #ffffff;
+          }
+    
+          body, h1, h2, h3, h4, h5, h6 {
+            font-weight: 375;
+          }
+    
+          .col-index {
+              font-size: 24px;
+          }
+
+          .page-footer {
+            bottom: 0;
+            color: white;
+          }
+        </style>
+    </head>
+    
+    <body style="background-color: #ece8e1;">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-darklight mb-4 scrolling-navbar">
+            <div class="container"> 
+              <a class="navbar-brand" href="index.html">
+                <img src="Images/signature resized.png" width="95" height="40">
+              </a>
+              <!-- Shows hamburger (menu button) when the screen size shrinks -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarCollapse">
+              <!-- All the buttons and menu items in the navbar -->
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="aboutme.html">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="blog.html">Blog</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <section id="blog">
+                <div class="blog-box">              
+                    <div class="blog-text">
+                        <span>October 15 2024 / College Life and Updates</span>
+                        <a class="blog-title">College + What I've Been Up To</a>
+                        <p>Hi everyone, its been a while. I have not posted in 7 months and A LOT has happened since then. These 7 months were probably had some of the best moments of my life, however, and I'd like to share just a little bit about it. I'm now at the University of Washington and graduated high school in May. 
+                        </p>
+                        <p>
+                            The time from April to August of this year were probably some of the best moments of my life. There's so much I can talk - I went to San Diego for a little senior trip and basically only went cliff jumping. Here I damaged my nose from trying to land a front flip but at least it was sendy. I played a lot of basketball with my friends almost everyday and met up regularly with my neighbors.
+                        </p>
+                        <p>
+                            In June, I traveled to Indonesia to meet my extended family and also do start my internship at Bang Jamin. This internship was mainly remote but I traveled to Jakarta to meet the team. I had a lot of fun during the internship and learned a lot about product management, QA testing, and working in a Agile environment with two week sprints. This lasted the entire summer but perhaps my biggest highlight this year was a drivable couch that me and my two other friends built.
+                        </p>
+                        <p>
+                            The idea was conceived near the end of school around May, but we never got to start it until we ordered parts. We finally obtained the wood, battery, wheel motors, wiring, and of course the couch needed to start building it. We first started by building a wooden frame to put the couch on and configured our hub motors to connect to the motor controllers using the VESC tool. We then connected the motor controllers to the ESP-32, which is where we sent the signals from using the Arduino IDE. We used a Wii controller to steer the couch (I'm not joking) using bluetooth and hooked it up with the esp. We built this in a week and the best part was definitely driving it around our neighborhood and flexing it to our friends.
+                        </p>
+                        <p>
+                            Now I'm in college, and so far its been ok. I've made a lot of surface level friends but haven't found anyone I could really call my "good friend" yet. However, it should get better with time. And thats really it, I'm not gonna write a lot because I got a ton of work to do that I'm currently procrastinating on - bye bye
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <footer class="page-footer font-small bg-dark" style=" overflow: hidden;">
+    <div class="container text-center text-md-left">
+      <div class="row mt-5">
+        <div class="col-md-2 col-lg-3 col-xl-3 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bold">Contact</h6>
+          <hr class="line d-inline-block mx-auto mt-2" style="width: 100px">
+          <p>
+            Nico Susanto 
+          </p>
+          <p>
+            Email: nicnad7788@gmail.com
+          </p>
+        </div>
+        <div class="col-md-2 col-lg-3 col-xl-3 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bold">Useful Links</h6>
+          <hr class="line d-inline-block mx-auto mt-2" style="width: 120px">
+          <p>
+            <a href="index.html">Home</a>
+          </p>
+          <p>
+            <a href="aboutme.html">About Me</a>
+          </p>
+          <p>
+            <a href="portfolio.html">Portfolio</a>
+          </p>
+          <p>
+            <a href="blog.html">Blog</a>
+          </p>
+        </div>
+        <div class="col-md-2 col-lg-3 col-xl-3 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bold">Social Media</h6>
+          <hr class="line d-inline-block mx-auto mt-2" style="width: 130px">
+          <p>
+            <a href="https://github.com/thenicsusanto">Github</a>
+          </p>
+          <p>
+            <a href="https://www.linkedin.com/in/nico-susanto-a5509a236/">Linkedin</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    </footer>
+    </body>
+</html>

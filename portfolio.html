@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head> <!-- Code in the head does not visually show --> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nico Susanto</title>
+    <link rel="stylesheet" href="portfoliocss.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&ampdisplay=swap" rel="stylesheet">
+  
+  <link rel="icon" href="Images/kingicon.png">
+    <style>
+        /*body {
+        font-family: 'Zen Kurenaido', sans-serif;
+        }*/
+      a {
+        text-decoration: none;
+        color: #ffffff;
+      }
+
+      body, h1, h2, h3, h4, h5, h6 {
+        font-weight: 375;
+      }
+
+      .page-footer {
+        bottom: 0;
+        color: white;
+      }
+    </style>
+</head>
+<body style="background-color: #F3F4F6">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-black mb-4 scrolling-navbar">
+        <div class="container"> 
+          <a class="navbar-brand" href="index.html">
+            <img src="Images/signature resized.png" width="95" height="40">
+          </a>
+          <!-- Shows hamburger (menu button) when the screen size shrinks -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+          <!-- All the buttons and menu items in the navbar -->
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutme.html">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
+            <div class="container w-100 mb-4">
+                <h1 class="text-center mt-2">Gallery</h1>
+                <hr class="w-25 m-auto">
+                <p class="text-center mt-3">A Collection of Work I've Done</p>
+            </div>
+        </div>
+          <section>
+            <!-- <ul>
+                <li class="list active" data-filter="all">All</li>
+                <li class="list" data-filter="game-development">Game Development</li>
+                <li class="list" data-filter="ar-vr">AR VR</li>
+                <li class="list" data-filter="software-engineer">Software Engineer</li>
+                <li class="list" data-filter="entrepreneurship">Entrepreneurship</li>
+                <li class="list" data-filter="web-design">Web Design</li>
+            </ul> -->
+            <div class="product">
+                <div class="itemBox" data-item="game-development" data-item="ar-vr"> 
+                    <img src="Images/pov-view-hole-8.PNG" class="rounded-corners">
+                    <a href="NoFores.html">
+                        <div class="overlay">
+                            <div class="content">
+                                <h1 class="font-weight-bold">NoFores</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="itemBox" data-item="ar-vr" data-item="ar-vr"> 
+                    <img src="Images/letemcooksc.PNG" class="rounded-corners">
+                    <a href="LetEmCook.html">
+                        <div class="overlay">
+                            <div class="content">
+                                <h1 class="font-weight-bold">Let 'em Cook!</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="itemBox" data-item="entrepreneurship" data-item="ar-vr"> 
+                    <img src="Images/brokebertsc.png" class="rounded-corners">
+                    <a href="Brokebert.html">
+                        <div class="overlay">
+                            <div class="content">
+                                <h1 class="font-weight-bold">Brok*bert</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="itemBox" data-item="software-engineer" data-item="ar-vr"> 
+                    <img src="Images/polyvoicelogo.png" class="rounded-corners">
+                    <a href="PolyVoice.html">
+                        <div class="overlay">
+                            <div class="content">
+                                <h1 class="font-weight-bold">PolyVoice</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="itemBox" data-item="web-design" data-item="ar-vr"> 
+                    <img src="Images/sc3.PNG" class="rounded-corners">
+                    <a href="AstroSword.html">
+                        <div class="overlay">
+                            <div class="content">
+                                <h1 class="font-weight-bold">AstroSword</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="itemBox" data-item="web-design" data-item="ar-vr"> 
+                    <img src="Images/glowboxrunsc.png" class="rounded-corners">
+                    <a href="GlowBox.html">
+                        <div class="overlay">
+                            <div class="content">
+                                <h1 class="font-weight-bold">GlowBox Run</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+          </section>
+
+          <script>
+            let list = document.querySelectorAll('.list');
+            let itemBox = document.querySelectorAll('.itemBox');
+
+            for(let i=0; i<list.length; i++) {
+                list[i].addEventListener('click', function(){
+                    for(let j=0; j<list.length; j++) {
+                        list[j].classList.remove('active');
+                    }
+                    this.classList.add('active');
+                    let dataFilter = this.getAttribute('data-filter');
+
+                    for(let k=0; k<itemBox.length; k++) {
+                        itemBox[k].classList.remove('active');
+                        itemBox[k].classList.add('hide');
+
+                        if(itemBox[k].getAttribute('data-item') == dataFilter || dataFilter == "all") {
+                            itemBox[k].classList.remove('hide');
+                            itemBox[k].classList.add('active');
+                        }
+                    }
+                })
+            }
+          </script>
+
+    <footer class="page-footer font-small bg-dark" style=" overflow: hidden;">
+    <div class="container text-center text-md-left">
+      <div class="row mt-5">
+        <div class="col-md-2 col-lg-3 col-xl-3 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bold">Contact</h6>
+          <hr class="line d-inline-block mx-auto mt-2" style="width: 100px">
+          <p>
+            Nico Susanto 
+          </p>
+          <p>
+            Email: nicnad7788@gmail.com
+          </p>
+        </div>
+        <div class="col-md-2 col-lg-3 col-xl-3 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bold">Useful Links</h6>
+          <hr class="line d-inline-block mx-auto mt-2" style="width: 120px">
+          <p>
+            <a href="index.html">Home</a>
+          </p>
+          <p>
+            <a href="aboutme.html">About Me</a>
+          </p>
+          <p>
+            <a href="portfolio.html">Portfolio</a>
+          </p>
+          <p>
+            <a href="blog.html">Blog</a>
+          </p>
+        </div>
+        <div class="col-md-2 col-lg-3 col-xl-3 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bold">Social Media</h6>
+          <hr class="line d-inline-block mx-auto mt-2" style="width: 130px">
+          <p>
+            <a href="https://github.com/thenicsusanto">Github</a>
+          </p>
+          <p>
+            <a href="https://www.linkedin.com/in/nico-susanto-a5509a236/">Linkedin</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    </footer>
+    </body>
+</html>

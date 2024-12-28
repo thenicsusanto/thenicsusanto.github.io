@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head> <!-- Code in the head does not visually show --> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Nico Susanto</title>
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="Images/kingicon.png">
+	<style>
+
+      hr.divider-hr {
+        height: 5px;
+        width: 250px;
+        border: none;
+        border-radius: 10px;
+        background: linear-gradient(to left, blue, red);
+        margin: 0 auto;
+       } 
+
+       
+      a {text-decoration: none;}
+
+      body, h1, h2, h3, h4, h5, h6 {
+        font-weight: 325;
+      }
+
+      .col-index {
+	      font-size: 24px;
+      }
+
+      h1  {
+        font-weight: 400;
+        font-size: 5rem;
+      }
+      h2 {
+        font-weight: 300;
+        font-size: 2rem;
+      }
+    </style>
+</head>
+<body class="bg-ligther"> <!-- Code in the body visually shows on the website -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-black scrolling-navbar">
+  <div class="container"> 
+    <a class="navbar-brand" href="index.html">
+      <img src="Images/signature resized.png" width="95" height="40">
+    </a>
+    <!-- Shows hamburger (menu button) when the screen size shrinks -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+    <!-- All the buttons and menu items in the navbar -->
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutme.html">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <div class="hero">
+    <video loop muted autoplay poster>
+      <source src="Images/Website Background Video.mp4" type="video/mp4">
+    </video>
+    <div class="content">
+      <h1>Nico Susanto</h1>
+      <hr style="height: 3px">
+      <a href="aboutme.html" class="first-read-more btn-rounded btn btn-primary mt-1">Learn More</a>
+    </div>
+  </div>
+
+<main>
+  <br>
+  <div class="container-fluid">
+    <div class="container reveal w-60">
+      <div class="row"> 
+        <div class="col-12">
+          <h2 class="text-center mb-3">About Me</h2>
+        </div>
+        <div class="col-index col-lg-7 offset-lg-3 ml-2 mt-3">
+          <p>Hello, I'm Nico Susanto and I'm a student at the University of Washington.</p>
+          <p>I am a Computer Science major with varying interests in virtual/augmented reality, neuroscience, game development,
+          and even electrical engineering. My experience in startups and building projects has allowed me to proactively always
+          seek new opportunities and solutions that can solve real world issues. Outside of this, you can find me playing pickup, 
+          going to the beach, or playing video games, or dancing.</p>
+          <p>This website is a collection of the work that I have done and projects that I am currently developing. I also have a blog
+          where I post updates about my life or free associate about my experiences.</p>
+          <p>Thank you for checking out my website! Feel free to look around :)</p>
+          <a href="aboutme.html" class="btn btn-rounded btn btn-dark mb-4">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="page-footer font-small bg-dark" style=" overflow: hidden;">
+  <div class="container text-center text-md-left">
+      <div class="row mt-5">
+        <div class="col-md-2 col-lg-3 col-xl-3 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bold">Contact</h6>
+          <hr class="line d-inline-block mx-auto mt-2" style="width: 100px">
+          <p>
+            Nico Susanto 
+          </p>
+          <p>
+            Email: nicnad7788@gmail.com
+          </p>
+        </div>
+        <div class="col-md-2 col-lg-3 col-xl-3 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bold">Useful Links</h6>
+          <hr class="line d-inline-block mx-auto mt-2" style="width: 120px">
+          <p>
+            <a href="index.html">Home</a>
+          </p>
+          <p>
+            <a href="aboutme.html">About Me</a>
+          </p>
+          <p>
+            <a href="portfolio.html">Portfolio</a>
+          </p>
+          <p>
+            <a href="blog.html">Blog</a>
+          </p>
+        </div>
+        <div class="col-md-2 col-lg-3 col-xl-3 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bold">Social Media</h6>
+          <hr class="line d-inline-block mx-auto mt-2" style="width: 130px">
+          <p>
+            <a href="https://github.com/thenicsusanto">Github</a>
+          </p>
+          <p>
+            <a href="https://www.linkedin.com/in/nico-susanto-a5509a236/">Linkedin</a>
+          </p>
+        </div>
+      </div>
+  </div>
+  
+</footer>
+    <script src="/docs/5.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    window.addEventListener("scroll", reveal);
+
+    function reveal() {
+      var reveals = document.querySelectorAll(".reveal");
+
+      for(var i = 0; i < reveals.length; i++) {
+         var windowHeight = window.innerHeight;
+         var revealTop = reveals[i].getBoundingClientRect().top;
+         var revealPoint = 150;
+
+         if(revealTop < windowHeight - revealPoint) {
+           reveals[i].classList.add("active");
+         }
+         else{
+           reveals[i].classList.remove("active");
+         }
+      }
+    }
+    </script>
+  </body>
+</html>

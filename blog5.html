@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head> <!-- Code in the head does not visually show --> 
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <title>Nico Susanto</title>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="blogpagestyles.css">
+      <link rel="icon" href="Images/kingicon.png">
+        <style>
+           body {
+            font-family: 'Zen Kurenaido', sans-serif;
+           }
+          a {
+            text-decoration: none;
+            color: #ffffff;
+          }
+    
+          body, h1, h2, h3, h4, h5, h6 {
+            font-weight: 375;
+          }
+    
+          .col-index {
+              font-size: 24px;
+          }
+
+          .page-footer {
+            bottom: 0;
+            color: white;
+          }
+        </style>
+    </head>
+    
+    <body style="background-color: #ece8e1;">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-darklight mb-4 scrolling-navbar">
+            <div class="container"> 
+              <a class="navbar-brand" href="index.html">
+                <img src="Images/signature resized.png" width="95" height="40">
+              </a>
+              <!-- Shows hamburger (menu button) when the screen size shrinks -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarCollapse">
+              <!-- All the buttons and menu items in the navbar -->
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="aboutme.html">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="blog.html">Blog</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <section id="blog">
+                <div class="blog-box">              
+                    <div class="blog-text">
+                        <span>August 19 2023 / Life and Game Development</span>
+                        <a class="blog-title">Cooking + Fighting + Virtual Reality: The Creation of Let 'em Cook!</a>
+                        <p>
+                            Hey guys, if you couldn't tell it's been a long time since I've last blogged. The 3 weeks before last week, I was working on a new virtual reality game for the original game round of the National High School Game Academy at Carnegie Mellon. If you don't know, NHSGA is a pre college program at CMU where for the last 3 weeks, we are assigned to pitch, design, and create our own original game. This process was similar to where me and my assigned team how to recreate Q*bert (you should check out that blog post!).
+                        </p>
+                        <p>
+                            It all started with team assignments. My producer and sound designer was the same one I had during Q*bert, while the rest of my team were from the Bay Area. The first week of development was entirely about pitching and choosing what game we were going to make. Our team had many iterations, both of ideas about what the game would be and what platform it would be on. We pitched two ideas in the end, with one being a virtual reality cooking/survival game and a 2D sun and moon themed puzzle game. We presented our ideas to all of the TAs and our artists were really hoping for our 2D game (which we named Solis and Luna - translates to "Sun and Moon"). In the end, the artists got their dreams crushed and we had to create a game which seemed impossible to create in 2 weeks. We also managed to come up with the super creative and funny title of Let &apos;em Cook! for our VR game.
+                        </p>
+                        <p> Now here are some of the challenges we instantly faced:<br>
+                            - Our artists didn't know how to create 3D art (biggest lie ever) <br>
+                            - The VR headset was only at the ETC (building we worked at) which we couldn't access outside of 9-5 on the weekdays. <br>
+                            - None of us had worked on a virtual reality game before <br>
+                            - Our game's scope was waaaaaaaaay out of reach for a 2 week project <br>
+                        </p>
+                        <p>
+                            Throughout the course of development, our team (mostly on the programming side) faced countless bugs and issues. Whether it was related to virtual reality or the actual game mechanics itself, our team struggled a lot. Due to this, we eventually had to cut a lot of things out of scope. This included: <br>
+                            - 5 nights with different orders and customers <br>
+                            - The entirety of french fries in our game (both as a food and enemy) <br>
+                            - A progressive 3 stage system where the music would get more intense as the night went on <br>
+                        </p>
+                        <p>
+                            Fast forward to the hours before our final day, we barely have our first night working. I remember countless people asking if they could playtest our game, to which I looked at them and smiled depressingly. But the most dramatic chapter of this story happened just 3 hours before we had to submit our final build and presentation.
+                        </p>
+                        <p>
+                            For our final presentation, we had to record a video of our gameplay to present to all of the parents and staff. Our last chance to do this was at the ETC, so we recorded the footage last minute and thought all we needed to do was put together our final presentation. But it was never gonna be that easy. When our team gathered again to finalize our presentation, Jeffrey asks me,</p>
+                        <p>
+                            "Nico correct me if I'm wrong, but the video we recorded doesn't have sound on my computer. Does your video have audio?" <br>
+                            ...
+                        </p>
+                        <p>
+                            After freaking out for what seemed to be forever, my other programmer finally said his roommate might have an Oculus Quest 1 on him. And he did. By God's grace our team was able to rerecord our gameplay with sound. We rushed to submit our final build and presentations by the deadline, which we did not meet.
+                        </p>
+                        <p>
+                            This blog is already getting long enough, so to wrap it all up, lets just say everything worked out in the end. Our head TA who was checking for our project submission was chill about our team submitting late. Even with this, our team actually ended up winning an award for our game, which totally made up for the years I lost from the day before.
+                        </p>
+                        <p>
+                            All jokes aside, I hope to post both Let 'em Cook! and my remake of Q*bert on my portfolio page soon. My senior of high school just started, and with college apps piling up, I can't say for sure the next time I'll blog.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <footer class="page-footer font-small bg-dark" style=" overflow: hidden;">
+    <div class="container text-center text-md-left">
+      <div class="row mt-5">
+        <div class="col-md-2 col-lg-3 col-xl-3 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bold">Contact</h6>
+          <hr class="line d-inline-block mx-auto mt-2" style="width: 100px">
+          <p>
+            Nico Susanto 
+          </p>
+          <p>
+            Email: nicnad7788@gmail.com
+          </p>
+        </div>
+        <div class="col-md-2 col-lg-3 col-xl-3 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bold">Useful Links</h6>
+          <hr class="line d-inline-block mx-auto mt-2" style="width: 120px">
+          <p>
+            <a href="index.html">Home</a>
+          </p>
+          <p>
+            <a href="aboutme.html">About Me</a>
+          </p>
+          <p>
+            <a href="portfolio.html">Portfolio</a>
+          </p>
+          <p>
+            <a href="blog.html">Blog</a>
+          </p>
+        </div>
+        <div class="col-md-2 col-lg-3 col-xl-3 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bold">Social Media</h6>
+          <hr class="line d-inline-block mx-auto mt-2" style="width: 130px">
+          <p>
+            <a href="https://github.com/thenicsusanto">Github</a>
+          </p>
+          <p>
+            <a href="https://www.linkedin.com/in/nico-susanto-a5509a236/">Linkedin</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    </footer>
+    </body>
+</html>
